@@ -1,0 +1,27 @@
+{
+    "name": "gbassanezi/notification",
+    "description": "This a library that uses composer as basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme",
+            "email": "gsbassanezi@gmail.com",
+            "homepage": "https://www.bassanezi.com.br",
+            "role": "Developer"
+
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.1.5"
+    },
+    "config": {
+        "vendor-dir":"lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
